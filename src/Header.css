@@ -1,0 +1,21 @@
+.header li {
+    color: rgb(187,111,108);
+    list-style-type: none;
+    margin: 1em;
+
+}
+a:hover{
+    color: white;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(187,111,108);
+
+}
+a:visited {
+    color: rgb(187,111,108);
+}
+.hide {
+    display: none;
+}

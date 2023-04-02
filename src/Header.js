@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Hamburger from 'hamburger-react'
+import './Header.css'
 
 const Header = () => {
     const [isOpen, setOpen] = useState(false)
@@ -9,15 +10,16 @@ const Header = () => {
     if(isOpen){
         menu = 
         <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
+            <li><a href='#about'>ABOUT</a></li>
+            <li><a href='#campaigns'>CAMPAIGNS</a></li>
+            <li><a href='#skills'>SKILLS</a></li>
+            <li><a href='#brands'>BRANDS</a></li>
         </ul>
     }
 
 return (
     <div className='header'>
-       <Hamburger toggled={isOpen} toggle={setOpen} color = 'rgb(187,111,108)'/>
+       <Hamburger className='hamburger'toggled={isOpen} toggle={setOpen} color = 'rgb(187,111,108)'/>
 
         { menu }
 

@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Lobster&display=swap');
 
 .about{
-    font-family: 'Crimson Text', serif;
+    /* font-family: 'Crimson Text', serif; */
     border: solid lightgray 1px;
-    width: 20%;
+    width: 40%;
     padding: 2em;
     border-radius: 5px;
     background-image: url(./img/crushbg.jpg);
     background-size: cover;
+    margin-left: 3em;
+    box-shadow: 10 10 100;
     
 }
 .about h1{
